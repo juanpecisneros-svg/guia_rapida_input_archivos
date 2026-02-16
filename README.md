@@ -271,9 +271,9 @@ with open(f'sim_{sim_num:03d}_report.txt', 'w') as f:
     f.write("="*50 + "\n")
 
 print(f"\n✓ Datos guardados en:")
-print(f"  • {csv_file}")
-print(f"  • simulaciones_log.txt")
-print(f"  • sim_{sim_num:03d}_report.txt")
+print(f"  {csv_file}")
+print(f"  simulaciones_log.txt")
+print(f"  sim_{sim_num:03d}_report.txt")
 ```
 
 ---
